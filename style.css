@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+}
+.header {
+    background-color: rgb(4, 30, 61);
+    color: white;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 40px;
+    margin: 0px;
+    border: 0px;
+}
+
+.user a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 14px ;
+    background-color: #E5E5E5 ;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+.user a:hover {
+  background-color:#e44d11 ;
+  color: white;
+  transition: transform ,1s;
+}
+.titre {
+ 
+  padding-left: 400px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.titre2 {
+  padding-left: 400px;
+}
+.main {
+    font-family: "Roboto";
+    margin-bottom: 100px;
+}
+
+
+
+.stitre {
+   font-family: 'Raleway' ;
+   font-weight: bold;
+   font-size: 30px;
+   margin-top: 100px;
+   margin-left: 80px;
+   color: rgb(4, 30, 61);
+}
+.intro {
+   margin-left: 80px;
+   font-size: 15px;
+   margin-top: 20px;
+   font-weight: bold;
+   width: 50%;
+  float: left;
+}
+
+/*.bio {
+    margin-top: 20%;
+    margin-left: 65%;
+    size: 0px;
+    margin: bottom 70%; ;
+}
+/*.txt {
+    margin-left: 80px;
+    font-size: 15px;
+   margin-top: 0px;
+   font-weight: bold;
+   vertical-align: top;
+   margin-right: 10%;
+}*/
+.foot {
+  position: relative;
+  bottom: 0;
+  
+  background-color: #787878;
+  background: linear-gradient(to right,#49465f , rgb(4,30,61));
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;}
+
+.ooo {
+    padding-left: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
+    font-family: "roboto";    
+    font-size: 26px; 
+    padding-bottom: 30px;
+    color:rgb(4, 30, 61);
+}
+ 
+.foot a {
+    padding-left: 100px;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    font-family: "roboto";    
+    font-size: 18px;
+}
+.foot a:hover{
+    color: #e44d11 ;
+    font-size: 22px;
+
+}
+
+.a  {
+    padding-bottom: 30px;
+}
+
+
+
+.last {
+  background-color: rgb(4, 30, 61);
+  font-family:"roboto" ;
+  font-size: 12px;
+  color: rgb(200, 200, 200);
+  padding-top: 10px;
+  padding-bottom: 10px;
+    font-size: 14px;
+  font-weight: bold;
+
+}
+.last a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 450px;
+  margin-right: 100px;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden; /* Clear float */
+  display: flex;
+}
+
+
+
+.bio{
+  width: 50%;
+  float: right; /* Fait flotter l'image à gauche */
+  margin-right: 0px; /* Ajoute une marge à droite pour séparer l'image du texte */
+  margin-bottom: 400px; /* Ajoute une marge en bas pour l'espace entre les contenus */
+ margin-left: 250px;
+ margin-top: 100PX;
+ border-radius: 30%;
+}
+
+
+
+/*.txt {
+  margin-bottom: 20px; 
+
+  width: 50%;
+  float: right;
+  margin-left: 80px;
+   font-size: 15px;
+   margin-top: 20px;
+   font-weight: bold;
+}*/
+
+  
